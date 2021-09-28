@@ -3,8 +3,6 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const CopyPlugin = require('copy-webpack-plugin');
 
-
-
 module.exports = {
   // Entry nos permite decir el punto de entrada de nuestra aplicación
   entry: "./src/index.js",
